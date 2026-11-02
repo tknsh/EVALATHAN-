@@ -661,7 +661,7 @@ The scan looks for a file whose stem is `prd`, `product-requirements`, or `produ
 
 <h2 id="pretruws">PRETRUWs</h2>
 
-PRETRUWs (PREdiscovery TRuncated-Universes and Worlds - pronounced <i>pre-trues</i>) is Evalathan's big idea for testing AI in a locked past, not a present-day open-book quiz. It is a paradigm (a way of thinking about the test), not a Hydra evaler and not a score. Under that idea sit concrete exam rooms called [LuDaTs](#ludats) (Limited-universe Data Test sets). [Dehydrus](#dehydrus) runs those rooms. Spec: [docs/PRETRUWs.md](docs/PRETRUWs.md). Roadmap: [docs/BUILDLOG.md](docs/BUILDLOG.md).
+PRETRUWs (PREdiscovery TRuncated-Universes and Worlds - pronounced <i>pre-trues</i>) is Evalathan's big idea for testing AI in a locked past, not a present-day open-book quiz. It is a paradigm (a way of thinking about the test), not a Hydra evaler and not a score. Under this idea sit concrete exam rooms called [LuDaTs](#ludats) (Limited-universe Data Test sets). [Dehydrus](#dehydrus) runs those rooms. Spec: [docs/PRETRUWs.md](docs/PRETRUWs.md). Roadmap: [docs/BUILDLOG.md](docs/BUILDLOG.md).
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
 
@@ -1108,11 +1108,17 @@ The paper is [arXiv:2510.24358](https://arxiv.org/abs/2510.24358), submitted 28 
 
 <h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
-[LuDaTs](#ludats) (Limited-universe Data Test sets) [methodology framework](https://researchmethod.net/methodological-framework/) is a subset of [PRETRUWs](#pretruws) paradigm. Dehydrus is the routing conductor of the eight [LuDaTs](#ludats) evalers under LuDaTs framework. A missing world is blank, not a fail and not a zero. A gold medal is the structural prize for that world, not a sports rank of the product.
+LuDaTs (Limited-universe Data Test sets) is the set of eight concrete exam rooms under [PRETRUWs](#pretruws). It is a [methodology framework](https://researchmethod.net/methodological-framework/) (a named set of methods), not a ninth Dehydrus score and not a seventeenth Hydra score. [Dehydrus](#dehydrus) runs the eight rooms. A missing world is blank, not a fail and not a zero. A gold medal is the structural prize for that room, not a sports rank of the product. Spec: [docs/LuDaTs.md](docs/LuDaTs.md).
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
 
-[LuDaTs](#ludats) methodology framework locks the agent in a dated world (Temporal-locked Epistemic - viz. - Time-dependent Truth - viz. - 'true-at-the-time') : only the news, instruments, and papers that existed at that year, and only what that discoverer could have reached at that age. It then has to form the theory by acting in a simulator whose later facts are gone. Naming the later textbook title is not a gold medal. [Galileo](#galileoly), [Copernicus](#copernly), and [Kepler](#keplerly) are three different tests, not one astronomy quiz. [CurCuriely](#curcuriely) is the pair room: two scientists, two agents. Newton waits.
+If [PRETRUWs](#pretruws) is the museum building - "only a locked past year is allowed" - then LuDaTs are the separate galleries inside that building.
+
+Each gallery is one kind of discovery work, not one big science quiz. One gallery asks you to re-read old sky numbers with no new telescope ([Copernly](#copernly)). Another gives you a sharper Mars table from the same kind of eye ([Keplerly](#keplerly)). Another hands you a new optic and a bench on earth ([Galileoly](#galileoly)). Others ask for years of field notes ([Darwinly](#darwinly)), holes left in an elements table ([Mendly](#mendly)), a new field written from an leftover the old law cannot eat ([Einsteinly](#einsteinly)), two discoverers who must win together ([CurCuriely](#curcuriely)), or a later join of sky and ground under one law ([Newtonly](#newtonly)).
+
+In every gallery the shelves hold only what that year and that discoverer could have reached. Tomorrow's textbook is locked outside. Saying the later title out loud is not the prize. The prize is forming the insight the way the discoverer would have - by acting in a room where the later facts are actually gone.
+
+[Dehydrus](#dehydrus) is the guard who walks each gallery and writes what happened. Ace one gallery and you still have seven others. A blank gallery is not a fail and not a zero.
 
 <p align="center"><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/pedramgoshATgmail/EVALATHAN/c45441372e86d42e44f02c778e5123525040a33b/docs/glossary.html#xl-ludats"><img src="assets/glossary/cards/ludats-card-20261101s.png" alt="LuDaTs is eight locked worlds. Each brand is one method, not one astronomy quiz." width="703"></a></p>
 <p align="center"><i>PRETRUWs locks the year and era. LuDaTs is the eight different rooms inside that lock - eight methods, not one science quiz.</i></p>
@@ -1120,7 +1126,13 @@ The paper is [arXiv:2510.24358](https://arxiv.org/abs/2510.24358), submitted 28 
 
 <h3><img src="assets/glossary/techspeak.png" alt="Techspeak" height="21"></h3>
 
-Spec: [docs/LuDaTs.md](docs/LuDaTs.md). Machine cards: [exams/ludats/](exams/ludats/). Brands: [Copernly](#copernly) (LuDaTs-C, 1542, pre [*De revolutionibus orbium coelestium*](https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium)), [Keplerly](#keplerly) (LuDaTs-K, 1608), [Galileoly](#galileoly) (LuDaTs-G, required), [Darwinly](#darwinly) (LuDaTs-D, required), [Mendly](#mendly) (LuDaTs-M, 1868), [Einsteinly](#einsteinly) (LuDaTs-E, 1914, not 1905), [CurCuriely](#curcuriely) (LuDaTs-CC, 1897, Mode Pair), [Newtonly](#newtonly) (LuDaTs-N, v2). Two clocks: world year T, biography age A. Pair worlds add a second biography clock. [ExAnte](https://aclanthology.org/2026.eacl-long.72/) (ACL 2026) showed prompt cutoffs leak. Domly is the wrong station. The sixteen stay sixteen.
+**What it is.** LuDaTs methodology framework is a subset of [PRETRUWs](#pretruws): the runnable methods under that paradigm, not a second paradigm. Each brand is one method with its own mode ([LuDaTs modes](#ludats-modes)). Machine cards: [exams/ludats/](exams/ludats/).
+
+**What a room locks.** Two clocks. World clock T is the freeze year for corpus, instruments, news, and letters. Biography clock A is what that named discoverer could have reached at that age and post. Pair worlds add a second biography clock and a second agent. Observations come from a simulator at T. A prompt that says "pretend it is 1610" while later weights stay loaded is not LuDaTs - [ExAnte](https://aclanthology.org/2026.eacl-long.72/) (ACL 2026) already showed cutoffs leak.
+
+**Who runs it.** [Dehydrus](#dehydrus) writes eight cells, in this order: [Copernly](#copernly) (LuDaTs-C, 1542, pre [*De revolutionibus orbium coelestium*](https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium)), [Keplerly](#keplerly) (LuDaTs-K, 1608), [Galileoly](#galileoly) (LuDaTs-G, required), [Darwinly](#darwinly) (LuDaTs-D, required), [Mendly](#mendly) (LuDaTs-M, 1868), [Einsteinly](#einsteinly) (LuDaTs-E, 1914, General Relativity only - not 1905), [CurCuriely](#curcuriely) (LuDaTs-CC, 1897, Mode Pair), [Newtonly](#newtonly) (LuDaTs-N, Mode Unification, deferred to v2 until Keplerly and Galileoly are both sealed).
+
+**What is not LuDaTs.** Domly is the wrong station. Do not add a LuDaTs brand to Hydra. The sixteen stay sixteen. LuDaTs does not award a state-of-the-art stamp from a filename.
 
 
 <p><img src="assets/term-rule.png" alt="" width="100%" height="18"></p>

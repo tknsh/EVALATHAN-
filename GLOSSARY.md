@@ -2,7 +2,7 @@
 
 <big><big><mark><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/pedramgoshATgmail/EVALATHAN/472e76cfde1cf664c2c7cd77a4f0c87e139c7e86/docs/glossary.html">Search the glossary</a></mark></big></big>. This page is the glossary, with its lettering and images, and the search slot is on the same page. Type a letter and the matching entries appear. Choosing a word moves to that entry in zero latency.
 
-[Evalathan](#evalathan) is one evaluation harness. [Hydra](#hydra) is the conductor for sixteen software evalers. [Dehydrus](#dehydrus) is the conductor for eight [LuDaTs](#ludats) evalers under [PRETRUWs](#pretruws). [LuDaTs](#ludats) methodology framework is a subset of [PRETRUWs](#pretruws). Each entry below has the same three parts.
+[Evalathan](#evalathan) is one evaluation harness. [Hydra](#hydra) is the conductor for sixteen software evalers. [Dehydrus](#dehydrus) is the conductor for eight [LuDaTs](#ludats) evalers under [PRETRUWs](#pretruws). [LuDaTs](#ludats) methodology framework is a subset of [PRETRUWs](#pretruws). Scoring and benching entries use Score Constitution plus Simplespeak and Techspeak. Definition-only entries skip Score Constitution and keep Simplespeak and Techspeak.
 
 <img src="assets/glossary/score-constitution-dot.png" alt="Score Constitution." height="14"> What is counted, whether that count is a yes-or-no pass, and the three endings a cell can have. Measured means the file or the code was there and a result was written. Claim means a sentence is on disk and this run did not re-check it. Blank means the needed record is missing. A blank is not a fail and not a zero.
 
@@ -495,8 +495,6 @@ Good examples include: Meta/etc AI Ray Ban glasses which bear their own Edge AI,
 <a id="deglove" name="deglove"></a>
 <h2>Deglove (Refactoring)</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not a Hydra evaler and not a seventeenth score. [Refactorly](#refactorly) still reports duplicates, dead names, and churn. Deglove names the other case: the codebase to be refactored is so messy, layered, and awful that a local tidy is the wrong job and a big overhaul is the honest one. v0.3 does not compute a Deglove Rate. A missing rate is blank, not a fail and not a zero.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -525,8 +523,6 @@ Bands: 0–20 ordinary refactor. 21–40 staged module-by-module. 41–60 peel c
 
 SELFBELT is the seatbelt write-up for people who sit with software, including AI tools, for a long time. The pages are on [SELFBELT](docs/SELFBELT.md). The practice named inside the document is SELFBELTING. The button name and the page name are SELFBELT.
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 SELFBELT is not one of the sixteen evalers and it does not add a seventeenth score. Menschly is the evaler that can see a timer. The PDF is the explanation a developer can read and, if they choose, ship beside their own software.
 
 <p align="center"><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/pedramgoshATgmail/EVALATHAN/472e76cfde1cf664c2c7cd77a4f0c87e139c7e86/docs/glossary.html#xl-selfbelt"><img src="assets/glossary/cards/selfbelt-narco-20261102.png" alt="AI Narco thesis: AIholism, Ainxiety, Aidoicy, and Airrogance." width="541"></a></p>
@@ -547,8 +543,6 @@ Menschly links here. The drop-in timer is [fuss/README.md](fuss/README.md). Inst
 
 <a id="fuss" name="fuss"></a>
 <h2>FUSS</h2>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 FUSS (For-User Session Switch) is not one of the sixteen evalers and it does not add a seventeenth score. It is a panel a developer can copy into a product. Menschly is the evaler that can see a timer. A sentence that merely names FUSS is not a timer.
 
@@ -585,8 +579,6 @@ Copy the `fuss` folder into a web page or a desktop web view. The same files run
 Product-led growth (PLG) is a business strategy in which the product itself drives customer acquisition, adoption, retention, and revenue growth. Instead of relying primarily on salespeople to convince customers to buy, a PLG company lets users experience the product's value directly, often through a free tier, free trial, or self-service onboarding. The key principle is: make the product demonstrate its own value before asking the customer to commit. This entry is the definition. It is not an evaler.
 
 <p align="center"><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/pedramgoshATgmail/EVALATHAN/472e76cfde1cf664c2c7cd77a4f0c87e139c7e86/docs/glossary.html#xl-plg-funnel"><img src="assets/glossary/plg-funnel.png" alt="How product-led growth works: 1 Acquire, 2 Activate, 3 Retain, 4 Expand." width="541"></a></p>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 PLG is not one of the sixteen evalers and it does not add a seventeenth score. A folder scan cannot see who discovered the product, who reached a useful outcome, who kept it in their work, or who paid. Those facts stay off the report.
 
@@ -652,8 +644,6 @@ Examples: [Bottom-up cum Top-down](https://en.wikipedia.org/wiki/Bottom-up_and_t
 
 PRD (Product Requirements Document - what a product must do, not how to build it) is a write-up of the capabilities a release must include. This entry is the definition. It is not an evaler.
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 PRD is not one of the sixteen evalers and it does not add a seventeenth score. Hydra may print that a named PRD file was found. If none is in the tree, the line is No PRD found. That line is not a fail and not a zero. Archly still scores architecture evidence. A sentence that merely names a PRD is not a specification. This is not an ISO/IEC/IEEE 29148 certificate.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -671,13 +661,17 @@ The scan looks for a file whose stem is `prd`, `product-requirements`, or `produ
 
 <h2 id="pretruws">PRETRUWs</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>     
-
-[PRETRUWs](#pretruws) (PREdiscovery TRuncated-Universes and Worlds. pronounced <i>pre-trues</i>) is the v0.3 4IR (Fourth Industrial Revolution) paradigm. It is not a Hydra evaler. [LuDaTs](#ludats) methodology framework is a subset of [PRETRUWs](#pretruws). Dehydrus writes eight [LuDaTs](#ludats) cells, not eight PRETRUWs evalers. A missing world is blank, not a fail and not a zero. Spec: [docs/PRETRUWs.md](docs/PRETRUWs.md). Roadmap: [docs/BUILDLOG.md](docs/BUILDLOG.md).
+PRETRUWs (PREdiscovery TRuncated-Universes and Worlds - pronounced <i>pre-trues</i>) is Evalathan's big idea for testing AI in a locked past, not a present-day open-book quiz. It is a paradigm (a way of thinking about the test), not a Hydra evaler and not a score. Under that idea sit concrete exam rooms called [LuDaTs](#ludats) (Limited-universe Data Test sets). [Dehydrus](#dehydrus) runs those rooms. Spec: [docs/PRETRUWs.md](docs/PRETRUWs.md). Roadmap: [docs/BUILDLOG.md](docs/BUILDLOG.md).
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
 
-A locked room from a past year. The exam has to work with what that year could see, and with what that one person could have reached. Saying "pretend it is 1610" is not enough. Later facts have to be actually gone.
+Imagine you want to know whether a student can invent the telescope story the way Galileo did - not whether they can Google the answer after the fact.
+
+So you put them in a sealed room labeled "1610." The books, maps, and tools on the shelves are only what a person in 1610 could have reached. Tomorrow's textbooks are locked outside. Saying "pretend it is 1610" while the later facts stay in the student's head is cheating - like taking a closed-book history test with next year's newspaper under the desk.
+
+PRETRUWs is that sealed-room idea for AI. Truncated means the later universe is cut away for real. World means a dated place with rules about what may be known. Prediscovery means the prize is forming the insight the way a discoverer would, not reciting the plaque on the museum wall.
+
+PRETRUWs is the museum building. [LuDaTs](#ludats) are the separate galleries inside it (Galileo's gallery is not Darwin's). [Dehydrus](#dehydrus) is the guard who walks each gallery and writes what happened. A missing gallery is blank - not a fail and not a zero.
 
 <p align="center"><a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/pedramgoshATgmail/EVALATHAN/472e76cfde1cf664c2c7cd77a4f0c87e139c7e86/docs/glossary.html#xl-pretruws"><img src="assets/glossary/cards/pretruws-card-20261101s.png" alt="PRETRUWs is a locked room from a past year. Eight worlds, two clocks, later facts actually gone." width="703"></a></p>
 <p align="center"><i>If AI was locked in a past century or age, with only what that century could see and know, would it still form new discoveries the way humans have - and even create or recite the later textbooks?</i></p>
@@ -685,20 +679,19 @@ A locked room from a past year. The exam has to work with what that year could s
 
 <h3><img src="assets/glossary/techspeak.png" alt="Techspeak" height="21"></h3>
 
-PRETRUWs Manifesto to be released between January and March 2027, by Pedram Goshtasbpour (staged for select peer review by Jim Highsmith and associates).
+**What it is.** PRETRUWs is the v0.3 4IR (Fourth Industrial Revolution) paradigm for Evalathan's physical-world room. A paradigm here means the rules of the exam universe: which year is locked, which later facts are forbidden, and what counts as a fair discovery. It does not print its own cell. The runnable methods under it are the eight [LuDaTs](#ludats) brands. [LuDaTs](#ludats) methodology framework is a subset of PRETRUWs - the galleries under the museum roof, not a second roof.
 
-Manifesto direction: 'Until Artificial Intelligence Independently Eurekas on its own...'. Pedram Goshtasbpour will release that follow-up paper and put it up for peer review in early 2027, thirty years after Jim Highsmith's [Messy, Exciting, and Anxiety-Ridden: Adaptive Software Development](https://web.archive.org/web/20171004140236/http://www.adaptivesd.com/articles/messy.htm) (American Programmer, 1997; also [Adaptive Software Development](https://en.wikipedia.org/wiki/Adaptive_software_development)).
+**How it differs from a prompt cutoff.** A line that says "pretend you are in 1610" while the model still holds post-1610 weights is a costume, not a truncated universe. PRETRUWs requires the later material to be actually unavailable (sealed world / truncated corpus), the way ExAnte (ACL 2026 / EACL) showed prompt cutoffs leak.
 
-Highsmith's second world was "unpredictable, nonlinear, and fast". Pedram's PRETRUWs paradigm states a third world: multi-predictable (not just unpredictable or multiverse; "our manmade dices may have 6 or 360 sides but they're still contrived 'sides'"); bilinear and/or supralinear (not just polar opposites, linear or nonlinear contrived 'sides'); hyperfast / instancy-nearest (the existence and unchanged semantics/meaning of the word "instant" can be assumed proof to velocities faster than that of light); polydeterminism (as opposed to simple binary nondeterminism vs determinism - post-quantum computing based); and [Braidware](#braidware) - agentics, software, and hardware as one unit. LLM (Large Language Model) and RAG (Retrieval-Augmented Generation) stacks are plugins, not extra Hydra cells.
-PRETRUWs paradigm holds the [LuDaTs](#ludats) methodology framework. Each of the current 8 [LuDaTs](#ludats) evalers are one method.
+**Who runs it.** [Dehydrus](#dehydrus) is the conductor. He writes eight [LuDaTs](#ludats) cells. He does not write eight "PRETRUWs scores." A missing world stays deferred.
+
+**Manifesto line.** Pedram Goshtasbpour plans a PRETRUWs manifesto (about January-March 2027) under the direction *Until Artificial Intelligence Independently Eurekas on its own...*, staged for select peer review with Jim Highsmith and associates - thirty years after Highsmith's [Messy, Exciting, and Anxiety-Ridden: Adaptive Software Development](https://web.archive.org/web/20171004140236/http://www.adaptivesd.com/articles/messy.htm) (American Programmer, 1997; also [Adaptive Software Development](https://en.wikipedia.org/wiki/Adaptive_software_development)). Highsmith's second world was "unpredictable, nonlinear, and fast." PRETRUWs states a third world: multi-predictable (not just unpredictable or multiverse; "our manmade dices may have 6 or 360 sides but they're still contrived 'sides'"); bilinear and/or supralinear (not just polar opposites, linear or nonlinear contrived 'sides'); hyperfast / instancy-nearest (the existence and unchanged semantics/meaning of the word "instant" can be assumed proof to velocities faster than that of light); polydeterminism (as opposed to simple binary nondeterminism vs determinism - post-quantum computing based); and [Braidware](#braidware) - agentics, software, and hardware as one unit. LLM (Large Language Model) and RAG (Retrieval-Augmented Generation) stacks are plugins inside a world, not extra Hydra cells.
 
 
 <p><img src="assets/term-rule.png" alt="" width="100%" height="18"></p>
 
 <a id="ludats-modes" name="ludats-modes"></a>
 <h2>LuDaTs modes</h2>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 A [LuDaTs](#ludats) (Limited-universe Data Test sets) mode is a method class, not an extra evaler. There are six lettered modes, one pair mode, and one unification mode: [Mode A](#ludats-mode-a), [Mode B](#ludats-mode-b), [Mode C](#ludats-mode-c), [Mode D](#ludats-mode-d), [Mode E](#ludats-mode-e), [Mode F](#ludats-mode-f), [Mode Pair](#ludats-mode-pair), and [Mode Unification](#ludats-mode-unification). They do not add a ninth Dehydrus score or a seventeenth Hydra score. A blank is not a fail and not a zero.
 
@@ -952,8 +945,6 @@ When the simulator does run, the first step is the anomaly the old law cannot ea
 <a id="conductor" name="conductor"></a>
 <h2>Conductor</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not a score. Hydra and Dehydrus are conductors. A conductor is not an extra evaler.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -969,8 +960,6 @@ Orchestration engine. The router job lives inside the conductor (order, prior ce
 
 <a id="eval-engine" name="eval-engine"></a>
 <h2>Engine</h2>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 Not a Hydra cell. An engine emits cells or a headline.
 
@@ -988,8 +977,6 @@ Hydra, Dehydrus, each evaler, and the planned [HabTwin](#habtwin) scorer are eng
 <a id="eval-agent" name="eval-agent"></a>
 <h2>Agent</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not a count by itself. The sixteen and the eight are agentic evalers.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -1006,8 +993,6 @@ Agentic = can plan, use tools, or judge. Utility is the opposite: a deterministi
 <a id="eval-utility" name="eval-utility"></a>
 <h2>Utility</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not an evaler. The PRD line and the [HabTwin](#habtwin) filename line are utilities.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -1023,8 +1008,6 @@ Deterministic transform. No gate. No `passed` flag.
 
 <a id="eval-router" name="eval-router"></a>
 <h2>Router</h2>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 Not a score. Routing is the job inside a conductor.
 
@@ -1175,8 +1158,6 @@ Do not target live people or production systems. Do not ship wordlists or cracki
 <a id="iso-23247" name="iso-23247"></a>
 <h2>ISO 23247</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not an Evalathan score. It is the manufacturing digital-twin framework [HabTwin](#habtwin) cites.
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -1193,8 +1174,6 @@ The public rulebook for what a factory-style digital twin is supposed to predict
 <a id="vvuq" name="vvuq"></a>
 <h2>VVUQ</h2>
 
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
-
 Not an Evalathan score. VVUQ (Verification, Validation, and Uncertainty Quantification) is the check [HabTwin](#habtwin) uses instead of "said the password."
 
 <h3><img src="assets/glossary/simplespeak.png" alt="Simplespeak" height="21"></h3>
@@ -1210,8 +1189,6 @@ Verification: the code does what the spec says. Validation: the prediction match
 
 <a id="aose" name="aose"></a>
 <h2><img src="assets/glossary/aose.png" alt="AOSE" height="19"></h2>
-
-<h3><img src="assets/glossary/score-constitution.png" alt="Score Constitution" height="17"></h3>
 
 AOSE is a field, not a score Evalathan prints.
 

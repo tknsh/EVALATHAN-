@@ -1132,7 +1132,7 @@ In every gallery the shelves hold only what that year and that discoverer could 
 
 **Who runs it.** [Dehydrus](#dehydrus) writes eight cells, in this order: [Copernly](#copernly) (LuDaTs-C, 1542, pre [*De revolutionibus orbium coelestium*](https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium)), [Keplerly](#keplerly) (LuDaTs-K, 1608), [Galileoly](#galileoly) (LuDaTs-G, required), [Darwinly](#darwinly) (LuDaTs-D, required), [Mendly](#mendly) (LuDaTs-M, 1868), [Einsteinly](#einsteinly) (LuDaTs-E, 1914, General Relativity only - not 1905), [CurCuriely](#curcuriely) (LuDaTs-CC, 1897, Mode Pair), [Newtonly](#newtonly) (LuDaTs-N, Mode Unification, deferred to v2 until Keplerly and Galileoly are both sealed).
 
-**What is not LuDaTs.** Domly is the wrong station. Do not add a LuDaTs brand to Hydra. The sixteen stay sixteen. LuDaTs does not award a state-of-the-art stamp from a filename.
+**What is not LuDaTs.** [Domly](#domly) is Hydra's subject-matter quiz desk: it grades present-day Q&A against an answer key. That is the wrong station for a locked-past discovery room. A LuDaTs brand does not live under Domly, and Domly does not move to Dehydrus. Do not add a LuDaTs brand to Hydra either - the sixteen software evalers stay sixteen. LuDaTs does not award a state-of-the-art stamp from a filename.
 
 
 <p><img src="assets/term-rule.png" alt="" width="100%" height="18"></p>

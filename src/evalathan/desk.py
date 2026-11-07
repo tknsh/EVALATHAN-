@@ -67,19 +67,39 @@ def prepare(text: str, scans: Path | None = None) -> tuple[Path, str]:
     return dest, f"Downloaded to {dest}"
 
 
+def add_heading(frame, root) -> None:
+    """HYDRA at the left. The mark sits at the top-right corner."""
+    import tkinter as tk
+    from tkinter import ttk
+
+    head = ttk.Frame(frame)
+    head.pack(fill="x")
+    ttk.Label(head, text="HYDRA", font=("Segoe UI", 18, "bold")).pack(side="left")
+    logo_path = Path(__file__).with_name("hydra-logo.png")
+    if not logo_path.is_file():
+        return
+    image = tk.PhotoImage(file=str(logo_path))
+    step = max(1, round(image.height() / round(56 * 1.12 * 1.16 * 1.11)))
+    shown = image.subsample(step, step) if step > 1 else image
+    root.iconphoto(True, shown)
+    root._hydra_logo = image
+    root._hydra_mark = shown
+    ttk.Label(head, image=shown).pack(side="right")
+
+
 def open_desk() -> int:
     import tkinter as tk
     from tkinter import filedialog, messagebox, scrolledtext, ttk
 
     root = tk.Tk()
-    root.title("EVALATHAN")
+    root.title("HYDRA")
     root.geometry("760x560")
     root.minsize(640, 420)
 
     frame = ttk.Frame(root, padding=16)
     frame.pack(fill="both", expand=True)
 
-    ttk.Label(frame, text="EVALATHAN", font=("Segoe UI", 18, "bold")).pack(anchor="w")
+    add_heading(frame, root)
     ttk.Label(
         frame,
         text="Paste a GitHub link, or a folder on this PC. Then press Evaluate.",
@@ -135,7 +155,7 @@ def open_desk() -> int:
     def save() -> None:
         body = report.get("1.0", "end").strip()
         if not body:
-            messagebox.showinfo("EVALATHAN", "There is no report to save yet.")
+            messagebox.showinfo("HYDRA", "There is no report to save yet.")
             return
         target = filedialog.asksaveasfilename(
             title="Save the report",

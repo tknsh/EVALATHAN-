@@ -1,6 +1,6 @@
 import pytest
 
-from evalathan.desk import checkout_name, classify, prepare
+from evalathan.desk import add_heading, checkout_name, classify, prepare
 
 
 def test_blank_paste_is_refused() -> None:
@@ -23,3 +23,22 @@ def test_local_folder_is_used_as_itself(tmp_path) -> None:
 def test_missing_folder_is_refused(tmp_path) -> None:
     with pytest.raises(ValueError, match="not found"):
         prepare(str(tmp_path / "missing"))
+
+
+def test_logo_sits_at_the_top_right() -> None:
+    tk = pytest.importorskip("tkinter")
+    from tkinter import ttk
+
+    root = tk.Tk()
+    root.withdraw()
+    try:
+        frame = ttk.Frame(root)
+        add_heading(frame, root)
+        name, logo = frame.winfo_children()[0].pack_slaves()
+        assert name.cget("text") == "HYDRA"
+        assert name.pack_info()["side"] == "left"
+        assert logo.cget("image")
+        assert logo.pack_info()["side"] == "right"
+        assert root._hydra_mark.height() == round(56 * 1.12 * 1.16 * 1.11)
+    finally:
+        root.destroy()
